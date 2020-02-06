@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7FF;
+}
+
+.img1 img{
+    width: 114.73px;
+    height: auto;
+}
+
+
+.top-text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.top-text h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.img2 {
+    width: 289.23;
+    height: auto;
+    margin: auto;
+}
+
+.contact h1{
+    font-size: 40px;
+}
+
+.contact h2{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.wrapper {
+    margin: 2em;
+}
+
+.contact form {
+    padding: 2em;
+}
+
+.contact fieldset input {
+    width: 100%;
+}
+
+.contact form{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: black;
+    box-shadow: 2px 2px 2px 2px ;  
+}
+
+.contact fieldset{
+    font-size: 16px;
+    color: #9B9B9B;
+    text-align: center;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact fieldset input{
+    border-radius: 16px;
+    height: 40px;
+    background-color: #F4F4F5;
+    
+}
+
+
+.contact fieldset:nth-child(5){
+color: #333131;
+}
+
+.contact input[type=checkbox]{
+width: 25px;
+height: 25px;
+}
+
+form button{
+    padding: 15px;
+    background-color: #57EEAB;
+    height: 55px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;  
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #FFFD8C;
+    padding: 36px;
+}
+
+footer h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+
+
+footer form{
+    display: flex;
+}
+
+footer form fieldset{
+    border: none;
+    padding: 5px;
+
+}
+
+footer form fieldset input{
+    height: 3em;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+footer button{
+    background-color: #FF8480;
+    color: #F7F7FF;
+    padding: 15px;
+    height: 55px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;  
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.socials img{
+   padding: 15px;
+
+}
+   
