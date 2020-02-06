@@ -97,9 +97,15 @@ form button{
     font-weight: bold;
 }
 
+a:link, a:visited{
+    color:#FF8480;
+}
+
+
 footer{
     background-color: #FFFD8C;
     padding: 36px;
+    
 }
 
 footer h3{
@@ -113,7 +119,6 @@ footer p{
 }
 
 
-
 footer form{
     display: flex;
 }
@@ -121,11 +126,12 @@ footer form{
 footer form fieldset{
     border: none;
     padding: 5px;
+    padding-bottom: 20px;
 
 }
 
 footer form fieldset input{
-    height: 3em;
+    height: 55px;
     font-size: 16px;
     border-radius: 15px;
 }
@@ -142,10 +148,64 @@ footer button{
     margin: auto;
     font-size: 24px;
     font-weight: bold;
+
+}
+
+.socials{
+    margin: auto;
 }
 
 .socials img{
-   padding: 15px;
+    padding: 15px;
+    
 
 }
-   
+
+@media only screen and (min-width: 700px) {
+    
+    .top-text h1{
+        font-size: 80px;
+    }
+    .img2 {
+        width: 420px;
+    }   
+    
+    footer button{
+        width: 30%;
+        display: flex;
+        align-self: flex-start;
+    }
+
+}
+
+@media only screen and (min-width: 950px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-template-rows: repeat(3);
+    }
+
+    .img1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .top-text{
+        grid-column: 1;
+        grid-row: 2;   
+    }
+    
+    .img2{
+        width: 819px;
+        height: 599px;
+        grid-column: 2;
+        grid-row: 2/span 3;
+    }
+
+    .contact{
+        grid-column: 3;
+        grid-row: 2/span 3;
+    }
+
+
+}
