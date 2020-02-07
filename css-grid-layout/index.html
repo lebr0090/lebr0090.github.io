@@ -9,6 +9,20 @@
 </head>
 <body>
     <div class="img1">
+       <picture>
+        <source srcset="img/lambo-325_x_267.jpg 325w,
+        img/lambo-500_x_411.jpg 500w,
+        img/lambo-960_x_790.jpg 960w"
+        media="(max-width: 960px)">
+
+        <source srcset="img/lambo-960_x_960.jpg 960w,img/lambo-1280_x_1280.jpg 1280w"
+        media="(min-width: 960px)"
+        >
+
+
+        <img src="img/lambo.jpg" alt="lambo">
+       </picture>
+
        <img 
        srcset="img/lambo-325_x_267.jpg 325w,
        img/lambo-500_x_411.jpg 500w,
