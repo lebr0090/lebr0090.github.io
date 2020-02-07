@@ -1,64 +1,65 @@
+/* Reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Font and Body color */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F7F7FF;
 }
-
+/* Logo styling */
 .img1 img{
     width: 114.73px;
     height: auto;
 }
 
-
+/* First text styling */
 .top-text h1{
     font-size: 60px;
     font-weight: bold;
 }
-
+/* Second text styling */
 .top-text h2{
     font-size: 24px;
     font-weight: normal;
 }
-
+/* Scooter Styling  */
 .img2 {
     width: 289.23;
     height: auto;
     margin: auto;
 }
-
+/* Contact top text */
 .contact h1{
     font-size: 40px;
 }
-
+/* Context top text 2 */
 .contact h2{
     font-size: 16px;
     font-weight: normal;
 }
-
+/* Margin to entire wrapper */
 .wrapper {
     margin: 2em;
 }
-
+/* padding to entire contact form */
 .contact form {
     padding: 2em;
 }
-
+/* field set width */
 .contact fieldset input {
     width: 100%;
 }
-
+/* form styling */
 .contact form{
     background-color: #FFFFFF;
     border-radius: 25px;
     border: black;
     box-shadow: 2px 2px 2px 2px ;  
 }
-
+/* contact boxes styling */
 .contact fieldset{
     font-size: 16px;
     color: #9B9B9B;
@@ -67,24 +68,23 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
+/* input stying  */
 .contact fieldset input{
     border-radius: 16px;
     height: 40px;
     background-color: #F4F4F5;
-    
+    border: none;
 }
-
-
+/* Attempt to stlye checkbox text */
 .contact fieldset:nth-child(5){
 color: #333131;
 }
-
+/* checkbox styling */
 .contact input[type=checkbox]{
 width: 25px;
 height: 25px;
 }
-
+/* contact form button styling */
 form button{
     padding: 15px;
     background-color: #57EEAB;
@@ -96,47 +96,45 @@ form button{
     font-size: 24px;
     font-weight: bold;
 }
-
+/* orange text in contact sheet */
 a:link, a:visited{
     color:#FF8480;
 }
-
-
+/* footer styling */
 footer{
     background-color: #FFFD8C;
     padding: 36px;
     
 }
-
+/* footer top text */
 footer h3{
     font-size: 18px;
     padding-bottom: 10px;
 }
-
+/* footer second text */
 footer p{
     font-size: 16px;
     padding-bottom: 15px;
 }
-
-
+/* flex on footer */
 footer form{
     display: flex;
 }
-
+/* footer text boxes */
 footer form fieldset{
     border: none;
     padding: 5px;
     padding-bottom: 20px;
 
 }
-
+/* footer text boxes */
 footer form fieldset input{
     height: 55px;
     font-size: 16px;
     border-radius: 15px;
+    border: none;
 }
-
-
+/* footer button */
 footer button{
     background-color: #FF8480;
     color: #F7F7FF;
@@ -148,63 +146,62 @@ footer button{
     margin: auto;
     font-size: 24px;
     font-weight: bold;
-
 }
-
+/* social media */
 .socials{
     margin: auto;
 }
-
+/* social media images  */
 .socials img{
     padding: 15px;
-    
-
 }
-
+/* Media querry  */
 @media only screen and (min-width: 700px) {
-    
+    /* top text resizing */
     .top-text h1{
         font-size: 80px;
     }
+    /* scooter resiszing */
     .img2 {
         width: 420px;
-    }   
-    
+    }
+    /* footer button flex  */   
     footer button{
         width: 30%;
         display: flex;
         align-self: flex-start;
     }
-
 }
-
+/*Media Querry */
 @media only screen and (min-width: 950px) {
+    /* Desktop grid layout  */
     .wrapper{
         display: grid;
         grid-template-columns: repeat(3);
         grid-template-rows: repeat(3);
     }
-
+    /* Img one placement */
     .img1{
         grid-column: 1;
         grid-row: 1;
     }
-    
+    /*top text placement */
     .top-text{
         grid-column: 1;
         grid-row: 2;   
     }
-    
+    /* Scooter placement  */
     .img2{
         width: 819px;
         height: 599px;
         grid-column: 2;
         grid-row: 2/span 3;
     }
-
+    /* contact form placement */
     .contact{
         grid-column: 3;
         grid-row: 2/span 3;
+        
     }
 
 
