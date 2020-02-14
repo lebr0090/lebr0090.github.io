@@ -1,0 +1,74 @@
+body{
+    max-width: 31rem;
+    margin: 50px auto;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+}
+
+/*Long Way
+.box{
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;
+}
+*/
+
+/*Short Way
+.box{
+    transition: background 0.3s ease-out 0.5s;
+    
+}
+*/
+.box{
+    transition: all 0.3s ease-out 0.5s;
+}
+
+
+/*translate*/
+.box{ 
+    transform: translate(50px,100px);
+}
+
+.box{
+    transform: translate(-100px,-25px);
+}
+
+/*Rotate*/
+.box{
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+
+.box{
+    transform: rotate(1000000turn);
+}
+/*
+.box{
+    transform: rotate(6.2832rad);
+}
+*/
+/*
+.box{
+    transform-origin: top left;
+}
+*/
+
+/*Scale*/ /*
+.box{
+    transform: scale(0.5,2);
+}*/
+
+.box{
+    transform: skew(0.5turn, 15deg);
+    transform: rotateY();
+}
