@@ -48,16 +48,19 @@ table {
 }
 
 
+/*Begining of my code*/
 
 
 header{
     background-color: #3C3B3A;
+    font-family: 'Raleway', sans-serif;
 }
 
 header img {
+    display: block;
     height: 88px;
     width: 55px;
-    
+    margin: auto;
 }
 
 
@@ -80,5 +83,101 @@ header nav ul li a:visited{
     background-color:#3C3B3A;
     text-decoration:none;
     color: white;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li a.active {
     font-weight: bold;
 }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+   margin: 28px;
+   text-align: center;
+}
+
+
+.yourarc h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+.yourarc p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.activities{
+    display: grid;
+}
+
+.bowllgo .climblgo .fitlgo .courtlgo{
+    width: 114px;
+    height: auto;
+}
+
+.activities{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 20px;
+}
+
+.button1 button{
+    padding: 15px;
+    background-color:#26A682;
+    height: 55px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;  
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.discimg img{
+    padding: 10px;
+    width: 399px;
+    
+}
+
+.scroll {
+    transform: rotate(180deg);
+
+}
+
+.scroll figcaption{
+    transform: rotate(180deg);
+}
+
+
+.discacimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+    height: 200px;
+}
+
+.discactxt h2{
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.discactxt h3{
+    font-size: 24;
+    text-align: left;
+    color: #26A682;
+}
+
+.discactxt p{
+    font-size: 16px;
+    text-align: left;
+}
+
