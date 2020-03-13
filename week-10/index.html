@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Week-10 Bootstrap Containers</title>
+  </head>
+  <body>
+    <!-- Bootstrap Containers -->
+    <div class="container bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container is 100% wide until smallbreak @576px
+        </div>
+    </div>
+
+    <!--.container-{breakpoint}  -->
+    <div class="container-sm bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container-sm is 100% wide until smallbreak @576px
+        </div>
+    </div>
+    
+    <!-- .container-mb -->
+    <div class="container-mb bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container is 100% wide until smallbreak @768px
+        </div>
+    </div>
+
+    <!-- .container-lg -->
+    <div class="container-lg bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container is 100% wide until smallbreak @992px
+        </div>
+    </div>
+
+    <!-- .container-xl -->
+    <div class="container-xl bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container is 100% wide until smallbreak @1200px
+        </div>
+    </div>
+
+    <!-- .container-fluid -->
+    <div class="container-fluid bg-primary mb-3">
+        <div class="row p-3 text-white">
+            .container is always 100% wide resposnsively 
+        </div>
+    </div>
+
+    <!--12 column grid system -->
+    <div class="container">
+        <div class="row">
+            <div class="col p-3 bg-secondary text-white border border-dark">
+                Column
+            </div>
+            <div class="col p-3 bg-secondary text-white border border-dark">
+                Column
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-3 no-gutters">
+            <div class="col p-3 bg-secondary text-white border border-dark">
+                Column
+            </div>
+            <div class="col p-3 bg-secondary text-white border border-dark">
+                Column
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid Options -->
+    <!-- .col-sm -->
+<div class="row mb-3">
+    <div class="col-sm bg-success p-3 text-white border border-dark">
+        <h1>ARC</h1>
+        <h1>ARC</h1>
+        <h1>ARC</h1>
+    </div>
+</div>    
+ 
+<!-- .col-sm{Number} -->
+<div class="row mb-3">   
+    <div class="col-sm-5 bg-success p-3 text-white border border-dark">col</div>
+    <div class="col-sm bg-success p-3 text-white border border-dark">col</div>
+    <div class="col-sm-5 bg-success p-3 text-white border border-dark">col</div>
+</div>
+
+<!--Example of all tags -->
+<div class="row mb-3">   
+    <div class="col-sm bg-danger p-3 text-white border border-dark">col</div>
+    <div class="col-md bg-danger p-3 text-white border border-dark">col</div>
+    <div class="col-lg bg-danger p-3 text-white border border-dark">col</div>
+    <div class="col-xl bg-danger p-3 text-white border border-dark">col</div>
+</div>
+
+<!-- .row-cols-{number}-->
+<div class="row mb-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
+    <div class="col bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col bg-secondary p-3 text-white border border-dark">Column</div>
+</div>
+
+
+<div class="row mb-3">
+    <div class="col-md-6 col-lg-3 bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col-md-6 col-lg-3 bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col-md-6 col-lg-3 bg-secondary p-3 text-white border border-dark">Column</div>
+    <div class="col-md-6 col-lg-3 bg-secondary p-3 text-white border border-dark">Column</div>
+</div>
+
+<!-- Horizontal Alignment -->
+<div class="row mb-3 justify-content-center">
+    <div class="col-sm-4 bg-info p-3 text-white border border-dark">.col-sm-4</div>
+    <div class="col-sm-4 bg-info p-3 text-white border border-dark">.col-sm-4</div>
+    <div class="col-sm-4 bg-info p-3 text-white border border-dark">.col-sm-4</div>
+</div>
+
+<!-- offset columns -->
+<div class="row mb-3 justify-content">
+    <div class="col-sm-4 bg-danger p-3 text-white border border-dark offset-sm-1">.col-sm-4</div>
+    <div class="col-sm-4 bg-danger p-3 text-white border border-dark offset-sm-2">.col-sm-4</div>
+    <div class="col-sm-4 bg-danger p-3 text-white border border-dark offset-sm-4">.col-sm-4</div>
+</div>
+
+<!-- reordering columns -->
+<div class="row mb-3">
+    <div class="col-sm bg-primary p-3 text-white border border-dark order-sm-last">First</div>
+    <div class="col-sm bg-primary p-3 text-white border border-dark order-sm-1">Second</div>
+    <div class="col-sm bg-primary p-3 text-white border border-dark order-sm-12">Third</div>
+    <div class="col-sm bg-primary p-3 text-white border border-dark order-sm-first">Fourth</div>
+    <div class="col-sm bg-primary p-3 text-white border border-dark">Fifth</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
