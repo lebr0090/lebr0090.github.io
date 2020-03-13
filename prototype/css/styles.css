@@ -50,12 +50,12 @@ table {
 
 /*Begining of my code*/
 
-
+/* Header Stlying */
 header{
     background-color: #3C3B3A;
     font-family: 'Raleway', sans-serif;
 }
-
+/* Header Image Stying */
 header img {
     display: block;
     height: 88px;
@@ -63,6 +63,7 @@ header img {
     margin: auto;
 }
 
+/* Nav Uls */
 
 header nav ul {
     list-style-type: none;
@@ -70,13 +71,15 @@ header nav ul {
     padding-left: 0;
 }
 
-
+/* Active ul */
 
 header nav ul li a{
     padding: 2em;
     display: block;
     
 }
+
+/* Nav styling */
 
 header nav ul li a:link,
 header nav ul li a:visited{
@@ -91,15 +94,20 @@ header nav ul li a.active {
     font-weight: bold;
 }
 
+/* Fonts */
+
 body{
     font-family: 'Raleway', sans-serif;
 }
+
+/* General Margin */
 
 .wrapper{
    margin: 28px;
    text-align: center;
 }
 
+/* h1 Styles  */
 
 h1{
     font-weight: bold;
@@ -107,19 +115,24 @@ h1{
     text-align: left;
 }
 
+/* Your Arc p Styles */
+
 .yourarc p{
     font-size: 20px;
     text-align: left;
 }
 
-.activities{
-    display: grid;
-}
+
+
+
+/* Act icon sizing */
 
 .bowllgo .climblgo .fitlgo .courtlgo{
     width: 114px;
     height: auto;
 }
+
+/* Activity Grid */
 
 .activities{
     display:grid;
@@ -127,6 +140,8 @@ h1{
     grid-template-rows: repeat(2,1fr);
     padding: 20px;
 }
+
+/* Button 1 Styles */
 
 .button1 button{
     padding: 15px;
@@ -140,7 +155,16 @@ h1{
     font-weight: bold;
     color: white;
     box-shadow: 10px 10px 5px grey;
+
 }
+
+/* Button Anim */
+
+.button1 button:hover{
+    animation: buttonpress 0.5s ease-in-out forwards;
+}
+
+/* Discover image sizing */
 
 .discimg img{
     padding: 10px;
@@ -148,15 +172,20 @@ h1{
     
 }
 
+/* Rotate Scroll div */
+
 .scroll {
     transform: rotate(180deg);
 
 }
 
+/* Unrotate Figcap */
+
 .scroll figcaption{
     transform: rotate(180deg);
 }
 
+/* Dicsover AC Image */
 
 .discacimg img{
     width: calc(100% + 56px);
@@ -164,6 +193,7 @@ h1{
     height: 200px;
 }
 
+/* Text Stlyings */
  h2{
     font-size: 32px;
     text-align: left;
@@ -184,6 +214,8 @@ h1{
     padding-bottom: 30px;
 }
 
+/* Discover AC button */
+
 .discactxt button{
     padding: 15px;
     background-color:#26A682;
@@ -199,9 +231,19 @@ h1{
     
 }
 
+/* Button Anim */
+
+.discactxt button:hover{
+    animation: buttonpress 0.5s ease-in-out forwards;
+}
+
+/* Additional Spacing */
+
 .discactxt {
     padding-bottom: 30px;
 }
+
+/* Simon box */
 
 .simon{
     width: calc(100% + 56px);
@@ -209,12 +251,16 @@ h1{
     background-color: #3C3B3A;
 }
 
+/* Simon image */
+
 .simon img{
     width: 175px;
     height: auto;
     border-radius: 100%;
-    padding-top: 30px;
+    border: 2px solid white;
 }
+
+/* Simon head text */
 
 .simon h4{
     font-weight: bold;
@@ -222,16 +268,22 @@ h1{
     font-size: 24px;
 }
 
+/* Simon Paragraph */
+
 .simon p{
     margin: 28px;
     color: white;
     line-height: 3.5;
 }
 
+/* Discover Entertainment */
+
 .discover-ent .discentimg img{
     width: calc(100% + 56px);
     margin-left: -28px;
 }
+
+/* Discover Button */
 
 .disctxt button{
     padding: 15px;
@@ -244,18 +296,23 @@ h1{
     font-size: 24px;
     font-weight: bold;
     color: white;
-    box-shadow: 10px 10px 5px grey;
-    
+    box-shadow: 10px 10px 5px grey;    
 }
+
+/* Button Anim */
+.disctxt button:hover{
+    animation: buttonpress 0.5s ease-in-out forwards;
+}
+
+/* Footer */
 
 footer{
     width: 100%;
     background-color: #3C3B3A;
     scroll-padding-bottom: 30px;
-
-    
 }
 
+/* Social Media Grid */
 
 .socials{
     display: grid;
@@ -264,12 +321,16 @@ footer{
 
 }
 
+/* Footer Text */
+
 footer p{
     color: white;
     text-align: center;
     padding-top: 30px;
     font-size: 24px;
 }
+
+/* Social Icons */
 
 .socicon{
     grid-row: 2/span 2;
@@ -301,10 +362,14 @@ footer p{
     grid-column: 4;
 }
 
+/* Scroll Bottom */
+
 .scroll-btm {
     grid-row: 1/span1;
     grid-column: 4;
 }
+
+/* Figcap */
 
 .scroll-btm figcaption{
     color: white;
@@ -312,10 +377,14 @@ footer p{
 
 }
 
+/* Construction Image */
+
 .constuction img{
     width: 100%;
     height: a;
 }
+
+/* About Banner */
 
 .about-banner{
     background-image: url(../images/about.jpg);
@@ -326,12 +395,16 @@ footer p{
     
 }
 
+/* Banner Text */
+
 .about-banner p{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
 }
+
+/* Sevice Banner */
 
 .services-banner{
     background-image: url(../images/services.jpg);
@@ -342,12 +415,16 @@ footer p{
     
 }
 
+/* Banner Text */
+
 .services-banner p{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
 }
+
+/* Image Removal */
 
 .nabimg img{
     display: none;
@@ -365,6 +442,7 @@ footer p{
     display: none;
 }
 
+/*  */
 
 .keepup{
     width: calc(100% + 56px);
@@ -394,6 +472,10 @@ footer p{
     color: white;
     box-shadow: 10px 10px 5px grey;
     margin-bottom: 15px;
+}
+
+.keepup button:hover{
+    animation: buttonpress 0.5s ease-in-out forwards;
 }
 
 
@@ -464,6 +546,10 @@ form button{
     font-weight: bold;
     color: white;
     box-shadow: 10px 10px 5px grey;
+}
+
+form button:hover{
+    animation: imgspin 1s ease-in-out forwards;
 }
 
 .location{
@@ -565,11 +651,11 @@ form button{
     .paratext {
         font-weight: bold;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 3;;
     
     }
     
-    .paratext p{
+    .paratxt p{
         line-height: normal;
     }
 
@@ -582,6 +668,8 @@ form button{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
     .nabimg img{
@@ -596,13 +684,16 @@ form button{
     .nabtxt{
         grid-row: 1;
         grid-column: 2/span 2;   
+        width: 85%;
+        
     }
 
-    
     .comp{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
     .compimg img{
@@ -616,6 +707,7 @@ form button{
     .comptxt{
         grid-row: 1;
         grid-column: 1/span 2;   
+        width: 85%;
     }
     
     
@@ -623,6 +715,8 @@ form button{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
     .nynmimg img{
@@ -635,13 +729,16 @@ form button{
     
     .nynmtxt{
         grid-row: 1;
-        grid-column: 2/span 2 ;   
+        grid-column: 2/span 2 ; 
+        width: 85%;  
     }
 
     .climb{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
     .climbimg img{
@@ -655,6 +752,7 @@ form button{
     .climbtxt{
         grid-row: 1;
         grid-column: 1/span 2;   
+        width: 85%;
     }
 
     h1{
@@ -712,11 +810,35 @@ form button{
     }
     
 
-    .simon{
+
+    .simon {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
         justify-items: center;
-        align-items: center;  
+        align-items: center;
+      }
+      
+      .headtxt {
+        grid-row: 1;
+      }
+      
+      .paratxt {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column: 3;
+      }
+
+    .headtxt {
+        grid-row: 1;
+        grid-column: 2;  
+    }
+
+    .paratext {
+        font-weight: bold;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    
     }
 
     .discover-ent{
@@ -741,9 +863,6 @@ form button{
     .constuction{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        background-color: #F2F2F2;
-        width: calc(100% + 56px);
-        margin-left: -28px;
         justify-items: center;
         align-items: center;  
     }
@@ -751,9 +870,6 @@ form button{
     .wx3{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        background-color: #F2F2F2;
-        width: calc(100% + 56px);
-        margin-left: -28px;
         justify-items: center;
         align-items: center;
     }
@@ -777,21 +893,72 @@ form button{
     .thximg{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        background-color: #F2F2F2;
         justify-items: center;
         align-items: center;
         padding-top: 30px;
     }
 
+    .thxtxt{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
     .conttop{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .wewanttoheartxt{
+        width: 85%;
+    }
+    
+    .contactform{
+        width: 85%;
     }
 
     .location{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
     }
 
+    .loactiontxt{
+        width: 85%;
+    }
+
+    .map{
+        width: 85%;
+    }
+
+
  }
+
+
+
+@keyframes buttonpress{
+  0%{
+   
+    transform: scale(1.1);
+  }
+  
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes imgspin{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  }
+  
+
+
+
+
