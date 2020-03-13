@@ -442,7 +442,7 @@ footer p{
     display: none;
 }
 
-/*  */
+/* Keep up styling */
 
 .keepup{
     width: calc(100% + 56px);
@@ -453,11 +453,15 @@ footer p{
     
 }
 
+/* Keep Up Paragraph*/
+
 .keepup p{
     text-align: center;
     padding-top: 5%;
     font-weight: bold;
 }
+
+/* Keep Up Button */
 
 .keepup button{
     padding: 15px;
@@ -474,16 +478,21 @@ footer p{
     margin-bottom: 15px;
 }
 
+/* Button Anim */
+
 .keepup button:hover{
     animation: buttonpress 0.5s ease-in-out forwards;
 }
 
+/* Thanks Text */
 
 .thxtxt{
     font-size: 56px;
     font-weight: bold;
     text-align: center;
 }
+
+/* Thx Images  */
 
 .thximg :nth-child(1){
     width: 100%;
@@ -502,9 +511,13 @@ footer p{
     width: 100%;
 }
 
+/* Contact Image */
+
 .contactimg img{
     width: 100%;
 }
+
+/* contact form box */
 
 .contactform{
     background-color: #26A682;
@@ -513,7 +526,7 @@ footer p{
     color: white;
 }
 
-
+/* Contact Form itself */
 
 .contactform fieldset{
     font-size: 16px;
@@ -526,6 +539,8 @@ footer p{
     padding-left: 22px;
 }
 
+/* Contact Form Inputs */
+
 .contactform fieldset input{
     border-radius: 16px;
     height: 40px;
@@ -533,6 +548,8 @@ footer p{
     border: none;
     width: 99%;
 }
+
+/* Contact Form Button */
 
 form button{
     padding: 15px;
@@ -548,13 +565,19 @@ form button{
     box-shadow: 10px 10px 5px grey;
 }
 
+/* Button Anim */
+
 form button:hover{
     animation: imgspin 1s ease-in-out forwards;
 }
 
+/* Additional Space */
+
 .location{
     padding-top: 20px;
 }
+
+/* Map Styling */
 
 .map{
     width: calc(100% + 56px);
@@ -563,6 +586,8 @@ form button:hover{
 
 /* Media Querry for tablet view  */
 @media (min-width:35rem) {
+
+/* Nav Styling */
 
     header{
         display: grid;
@@ -592,14 +617,15 @@ form button:hover{
         width: 33.3333%;
       }   
 
+      /* Activities Reorentation  */
 
     .activities{
         display:grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 1fr;
-        
-        
+        grid-template-rows: 1fr; 
     }
+
+/* Icon Grid Locations */
 
     .bowllgo{
         grid-row: 1;
@@ -620,6 +646,8 @@ form button:hover{
         grid-row: 1;
         grid-column: 4;
     } 
+
+/* Simon Box Grid */
 
     .simon {
         display: grid;
@@ -659,6 +687,7 @@ form button:hover{
         line-height: normal;
     }
 
+/* Services Tablet Orentation */
 
     .services{
         padding-top: 30px;
@@ -755,6 +784,8 @@ form button:hover{
         width: 85%;
     }
 
+/* Tablet Font Styles */
+
     h1{
         font-weight: bold;
         font-size: 72px;
@@ -786,12 +817,16 @@ form button:hover{
  /* Media Querry for PC or Fullscreen view  */ 
  @media (min-width:80rem) {
  
+/* Top of home page grid */
+
     .topbox {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
         align-items: center;
     }
+
+    /* Discover AC styling */
 
     .discover-ac{
         display: grid;
@@ -809,7 +844,7 @@ form button:hover{
 
     }
     
-
+/* Simon Reorientation */
 
     .simon {
         display: grid;
@@ -841,6 +876,8 @@ form button:hover{
     
     }
 
+/* Discover Entertainment */
+
     .discover-ent{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -859,6 +896,7 @@ form button:hover{
         width: 75%;
     }
     
+/* Contruction Section Grid */
 
     .constuction{
         display: grid;
@@ -867,12 +905,16 @@ form button:hover{
         align-items: center;  
     }
 
+/* 3 W's grid */
+
     .wx3{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         justify-items: center;
         align-items: center;
     }
+
+/* Image Resizing */
 
     .nabimg img{
         width: 100%;
@@ -890,6 +932,8 @@ form button:hover{
         width: 100%;
     }
     
+/* Thank You Images Grid */
+
     .thximg{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -902,6 +946,8 @@ form button:hover{
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
+/* Contact form Grid */
 
     .conttop{
         display: grid;
@@ -917,6 +963,8 @@ form button:hover{
     .contactform{
         width: 85%;
     }
+
+/* Location Grid */
 
     .location{
         display: grid;
@@ -936,7 +984,7 @@ form button:hover{
 
  }
 
-
+/* Animations */
 
 @keyframes buttonpress{
   0%{
