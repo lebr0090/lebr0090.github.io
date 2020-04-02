@@ -1,0 +1,90 @@
+.box-sm-red, .box-sm-blue, .box-sm-green, .box-sm-white, .box-md-red, .box-md-blue, .box-md-green, .box-md-white, .box-lg-red, .box-lg-blue, .box-lg-green, .box-lg-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1em;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: Helvetica;
+}
+
+.box-sm-red {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.box-sm-blue {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.box-sm-green {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+.box-sm-white {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.box-md-red {
+  background-color: red;
+  width: 75px;
+  height: 75px;
+}
+
+.box-md-blue {
+  background-color: blue;
+  width: 75px;
+  height: 75px;
+}
+
+.box-md-green {
+  background-color: green;
+  width: 75px;
+  height: 75px;
+}
+
+.box-md-white {
+  background-color: white;
+  width: 75px;
+  height: 75px;
+}
+
+.box-lg-red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.box-lg-blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.box-lg-green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+.box-lg-white {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=styles.css.map */

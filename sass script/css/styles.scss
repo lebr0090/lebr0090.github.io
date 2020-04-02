@@ -1,0 +1,50 @@
+// sass variables - lists
+$fonts: Helvetica, fantasy, monospace;
+$colors: (red, blue, green, white);
+$sizes: 'sm', 'md', 'lg';
+
+// sass placeholder
+%box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  border-radius: 7px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  color: nth($colors, 4);
+  font-family: nth($fonts, 1);
+}
+
+//mixin for creating box parameters
+@mixin box ($size, $color) {
+  background-color: $color;
+  @extend %box;
+  //@if rule - TRUE or FALSE
+  @if $size == sm {
+    width: 50px;
+    height: 50px;
+  }
+  @else if $size == md {
+    width: 75px;
+    height: 75px;
+  }
+  @else if $size == lg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+// .box-$sizes-$colors 
+// .box-sm-red {
+//   @include box ('sm', red);
+// }
+
+// @each rule
+@each $size in $sizes {
+  // nesting an @each rule within an @each rule
+  @each $color in $colors {
+    .box-#{$size}-#{$color} {
+      @include box($size, $color);
+    }
+  }
+}
