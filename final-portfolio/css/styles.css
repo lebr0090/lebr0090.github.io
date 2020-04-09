@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Begining of my code*/
+
+body {
+    background-color:#FEF8F1 ;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+/* Header Stlying */
+header{
+    background-color: #FEF8F1;
+    font-family: 'Tomorrow', sans-serif;
+}
+/* Header Image Stying */
+header img {
+    display: block;
+    height: 88px;
+    width: auto;
+    margin: auto;
+}
+
+/* Nav Uls */
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+/* Active ul */
+
+header nav ul li a{
+    padding: 2em;
+    display: block;
+    
+}
+
+/* Nav styling */
+
+header nav ul li a:link,
+header nav ul li a:visited{
+    background-color:#FEF8F1;
+    text-decoration:none;
+    color: #FF0000;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li a.active {
+    font-weight: bold;
+    background-color:#FF0000 ;
+    color: #FEF8F1;
+}
+
+.wrapper{
+    margin: 28px;
+    text-align: center;
+ }
+
+ .homeimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+}
+
+/* Text Stlyings */
+h1{
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+}
+
+
+ p{
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #FF0000;
+}
+
+.welcome h1{
+    text-align: center;
+    padding-bottom: 30px ;
+}
+
+.welcomeimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+    padding-bottom: 30px;
+}
+
+.quinftxt h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.qinfimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: #FD7F7F;
+    scroll-padding-bottom: 30px;
+}
+
+/* Social Media Grid */
+
+.socials{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+
+/* Footer Text */
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+/* Social Icons */
+
+.socicon{
+    grid-row: 2/span 2;
+    grid-column: 2/span 2;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+
+    
+}
+
+.socicon img:nth-child(1){
+    grid-row: 1/span1;
+    grid-column: 1;
+}
+
+.socicon img:nth-child(2){
+    grid-row: 1/span1;
+    grid-column: 2;
+}
+
+.socicon img:nth-child(3){
+    grid-row: 1/span1;
+    grid-column: 3;
+}
+
+.socicon img:nth-child(4){
+    grid-row: 1/span1;
+    grid-column: 4;
+}
+
+/* Scroll Bottom */
+
+.scroll-btm {
+    grid-row: 1/span1;
+    grid-column: 4;
+}
+
+.scroll-btm img{
+    width: 30px;
+    padding-top: 10px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.abtimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+}
+
+.abtmetxt h1{
+    padding-bottom: 30px;
+}
+
+.resume p{
+    font-weight: bold;
+}
+
+.resume iframe{
+    width: 100%;
+    
+}
+
+.wrkbimg img{
+    width: calc(100% + 56px);
+    margin-left: -28px;
+}
+
+.wrkbimg figcaption {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.itm1 img{
+    width: 100%;
+}
+
+.itm1 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+    
+
+.itm2 img{
+    width: 100%;
+}
+
+.itm2 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.itm3 img{
+    width: 100%;
+}
+
+.itm3 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.itm4 img{
+    width: 100%;
+}
+
+.itm4 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.itm5 img{
+    width: 100%;
+}
+
+.itm5 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.itm6 img{
+    width: 100%;
+}
+
+.itm6 figcaption{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #FF0000;
+    padding-bottom: 30px;
+}
+
+.conthead{
+    background-color: white ;
+    width: calc(100% + 56px);
+    margin-left: -28px;
+
+}
+
+.conthead p{
+    color: #FF0000;
+    text-align: center;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.conttxt{
+    padding-top: 30px;
+}
+
+.conttxt p{
+    color: black;
+}
+
+.contimg img{
+width: 100%;
+padding-bottom: 30px;
+}
+
+.formmap{
+    padding-bottom: 30px;
+}
+
+
+/* Contact Form itself */
+
+.form fieldset{
+    font-size: 16px;
+    color: #9B9B9B;
+    text-align: center;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    padding-left: 22px;
+}
+
+/* Contact Form Inputs */
+
+.form fieldset input{
+    height: 40px;
+    background-color: #F4F4F5;
+    border: none;
+    width: 99%;
+    padding-left: 5px;
+}
+
+/* Contact Form Button */
+
+form button{
+    padding: 15px;
+    background-color:#FF0000;
+    height: 55px;
+    width: 45%;
+    border: none;
+    border-radius: 50px;  
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
